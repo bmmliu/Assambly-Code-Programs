@@ -1,0 +1,12 @@
+break _start
+break done
+run
+set ((int*)&dividend)[0] = 0
+set ((int*)&divisor)[0] = 172561
+continue
+print $eax
+print $edx
+kill
+quit
+y
+

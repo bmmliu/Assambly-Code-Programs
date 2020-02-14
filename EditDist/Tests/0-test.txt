@@ -1,0 +1,20 @@
+break _start
+break done
+run
+set {char[8]}&string1 = "sitting"
+set {char[7]}&string2 = "kitten"
+continue
+print $eax
+kill
+quit
+y
+
+
+
+print ((int*)&len1)[0]
+
+print ((int*)&olddist)[0]
+print ((int*)&olddist)[6]
+
+print ((int*)&curdist)[0]
+print ((int*)&curdist)[6]
